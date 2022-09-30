@@ -1,7 +1,7 @@
 /* Variable
-1. Intialization by let let a = 7
+1. Intialization: let a = 7
 2. Declaration: let a 
-3. Assignment: = 
+3. Assignment: = 7
 
 Initialization is the process of both declaring and assigning a variable on the same line.
 */
