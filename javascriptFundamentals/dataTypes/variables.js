@@ -1,13 +1,15 @@
 /* Variable
-1. Intialization by let
+1. Intialization by let let a = 7
 2. Declaration: let a 
-3. Assignment: let a = 7
+3. Assignment: = 
+
+Initialization is the process of both declaring and assigning a variable on the same line.
 */
 
 /*
 declare variables using the let keyword
 assign values to variables using the assignment operator (=)
-use the shortcuts +=, -=, ++, -- to reassign variables
+use the shortcuts +=, -=, *=, /=, %=, ++, -- to reassign variables
 i
 */
 
@@ -49,5 +51,3 @@ console.log(num1);
 let num2
 console.log(num2 + 16); //NaN (Not a Number) NaN appeared bc variable num2 was not assigned and then was added by 16
 
-let city = 'New York';
-console.log(city + 12);
