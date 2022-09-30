@@ -51,3 +51,10 @@ console.log(num1);
 let num2
 console.log(num2 + 16); //NaN (Not a Number) NaN appeared bc variable num2 was not assigned and then was added by 16
 
+/*
+What you've learned
+variables are declared with let and will contain the value undefined by default
+we can use a single-equals = to assign variables
+changing a variable requires a reassignment, for which there are many shortcuts (+=, -=, etc.)
+*/
+

@@ -1,8 +1,8 @@
 // Boolean is either true or false
 /* Logical Operators and Logical Order of Operations
 1. ! not (aka bang)
-2.   && and 
-3.  || or 
+2. && and 
+3. || or 
 */
 
 /* De Morgan's Law
@@ -28,3 +28,9 @@ console.log(true || true); // true
 console.log(true || false); // true
 console.log(false || true); // true
 console.log(false || false); // false
+
+/*
+What you've learned
+!, &&, || are the boolean operators that we can use to establish logic in our code
+De Morgan's Law should be used to distribute ! against parentheses
+*/
