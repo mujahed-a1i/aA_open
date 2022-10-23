@@ -1,3 +1,4 @@
+
 let alphabet = [
     'a', 'b', 'c', 'd', 'e', 'f',
     'g', 'h', 'i', 'j', 'k', 'l',
@@ -59,14 +60,7 @@ fruits.shift(); // [ 'apple', 'orange', 'pear' ]
 console.log(fruits);
 
 
-function tripler(array) {
-    let i = array;
-    i *= 3;
-    return array;
-  // your code here...
-}
 
-console.log(tripler([1,2,3]));
 
 function oddRange(end) {
     let oddArray = [];
@@ -78,6 +72,18 @@ function oddRange(end) {
     }
     return oddArray;
     
-  }
+}
 
   console.log(oddRange(13));
+
+
+function tripler(array) {
+  let newArray = [];
+  array[array.length - 1];
+  for (let i = 0; i < array.length; i++){
+       newArray.push(array[i] * 3)
+    } 
+    return newArray;
+}
+
+console.log(tripler([1,2,3]));
